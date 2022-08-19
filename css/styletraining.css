@@ -1,0 +1,110 @@
+.f {
+    margin-left: 1000px;
+}
+
+
+@media only screen and (max-width:  768px) {
+    .carousel-inner,.con1,.place, .card3 {
+
+        width: 100%;
+        height: 100%;
+      
+        
+    }
+
+}
+
+.pagination {
+    margin-left: 760px;
+}
+
+@media only screen and (max-width:  768px) {
+    .pagination {
+
+        width: 100%;
+        height: 100%;
+        margin-left:2%;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+        height: 100%;
+
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .carousel-caption,
+    .card1 {
+        width: 96%;
+        height: 60%;
+        right: 11%;
+
+
+
+    }
+
+}
+
+.modal-content {
+    width: 840px;
+    right: 150px;
+    height: 580px;
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .modal-content {
+        width: 100%;
+        height: 100%;
+        right: 0%;
+
+
+    }
+
+}
+
+#formModalBtn {
+    float: right;
+}
+
+#formModalBtn button a {
+    text-decoration: none;
+}
+
+.loader {
+    border: 2px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 2px solid blue;
+    border-right: 2px solid green;
+    border-bottom: 2px solid red;
+    width: 70px;
+    height: auto;
+    -webkit-animation: spin 16s linear infinite;
+    animation: spin 16s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
